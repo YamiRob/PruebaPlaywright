@@ -2,9 +2,11 @@
   "devDependencies": {
     "@playwright/experimental-ct-react": "^1.25.1",
     "@playwright/test": "^1.25.1",
+    "jest": "^29.0.3",
     "playwright": "0.10.0"
   },
   "scripts": {
-    "test-ct": "playwright test -c playwright-ct.config.ts"
+    "test-ct": "jest"    
+    //playwright test -c playwright-ct.config.ts
   }
 }

@@ -5,19 +5,16 @@ const { chromium } = require('playwright');
   const browser = await chromium.launch({headless:false, slowMo:25});
     
     //creating a page inside browser
-    const context = await browser.newContext({ 
-        
-        recordVideo: { dir: './videos' }
-    
-    });
+    const context = await browser.newContext({});
 
     const page = await context.newPage();
 
   // Go to https://demo.clixiesite.com/brophy/
-  await page.goto('https://demo.clixiesite.com/brophy/');
+  await page.goto('https://www.w3schools.com/html/html5_video.asp');
 
   // Click text=Financing Technology Commercialization: A Venture Capital Practicum Watch video >> img
-  await page.locator('text=Financing Technology Commercialization: A Venture Capital Practicum Watch video >> img').click;
+  await page.locator('text=play');
+  await locator.click();
 
   // Click #video-1662749522663 header button
   await page.frameLocator('iframe').locator('#video-1662749522663 header button').click('button');
