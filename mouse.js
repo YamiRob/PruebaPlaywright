@@ -6,7 +6,7 @@ const { chromium } = require('playwright');
     const page = await browser.newPage();
 
     await page.goto('https://paint.js.org/');
-
+//cordenadas
     await page.mouse.move(200,200);
     await page.mouse.down();
     await page.mouse.move(400,200);

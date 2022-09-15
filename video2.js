@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
     const page = await context.newPage();
 
   // Go to https://demo.clixiesite.com/brophy/
-  await page.goto('https://www.w3schools.com/html/html5_video.asp');
+  await page.goto('https://demo.clixiesite.com/brophy/');
 
   // Click text=Financing Technology Commercialization: A Venture Capital Practicum Watch video >> img
   await page.locator('text=play');
