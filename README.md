@@ -1,4 +1,4 @@
-##PrebaPlaywright
+#PrebaPlaywright
 
 En esta sección se encuentran pequeños proyectos de prueba para Playwright lo cual se pueden ejecutar pruebas mediante los navegadores Chromium, Firefox y webkit.
 
@@ -39,6 +39,7 @@ npx playwright test.
 Y para ver si hubo algun problema o ver el segimiento de la prueba se usara el comando:
 npx playwright show-report
 
+***
 
 **CONTENIDO DE LOS ARCHIVOS DEL REPOSITORIO**
 
