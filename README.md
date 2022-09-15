@@ -1,23 +1,24 @@
-# PrebaPlaywright
+##PrebaPlaywright
+
 En esta sección se encuentran pequeños proyectos de prueba para Playwright lo cual se pueden ejecutar pruebas mediante los navegadores Chromium, Firefox y webkit.
 
-¿QUE ES PLAY WRIGHT?
+##¿QUE ES PLAYWRIGHT?
 
 Permite pruebas confiables de extremo a extremo para aplicaciones web.
 
 Playwright es compatible con los navegadores Chromium, Firefox y Webkit. Se pueden realizar pruebas en windows, linux y MacOS.
 se creó específicamente para adaptarse a las necesidades de las pruebas de extremo a extremo.
 
-COMANDOS DE INSTALACION.
+**COMANDOS DE INSTALACION**.
 
-*Escribir en la terminal de VS code o Git Bash:
+-Escribir en la terminal de VS code o Git Bash:
 npm init playwright@latest 
 
-*Elija entre TypeScript o JavaScript (el valor predeterminado es TypeScript).
+-Elija entre TypeScript o JavaScript (el valor predeterminado es TypeScript).
 
-*Nombre de su carpeta de Pruebas (el valor predeterminado es pruebas o e2e).
+-Nombre de su carpeta de Pruebas (el valor predeterminado es pruebas o e2e).
 
-*Agregue un flujo de trabajo de GitHub Actions.
+-Agregue un flujo de trabajo de GitHub Actions.
 
 Seguido de esto solo tendra que esperar que los navegadores Chromium, Firefox y Webkit se instalen y se guarden en una carpeta junto con los demas archivos que
 instalara playwright.
