@@ -1,4 +1,4 @@
-#PrebaPlaywright
+# PrebaPlaywright
 
 En esta sección se encuentran pequeños proyectos de prueba para Playwright lo cual se pueden ejecutar pruebas mediante los navegadores Chromium, Firefox y webkit.
 
