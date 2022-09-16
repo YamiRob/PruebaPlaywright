@@ -1,8 +1,10 @@
+[![Playwright](https://pbs.twimg.com/profile_images/1318604600677527552/stk8sqYZ_400x400.png "Playwright")](https://mobile.twitter.com/playwrightweb "Playwright")
+
 # PrebaPlaywright
 
 En esta sección se encuentran pequeños proyectos de prueba para Playwright lo cual se pueden ejecutar pruebas mediante los navegadores Chromium, Firefox y webkit.
 
-##¿QUE ES PLAYWRIGHT?
+## ¿QUE ES PLAYWRIGHT?
 
 Permite pruebas confiables de extremo a extremo para aplicaciones web.
 
@@ -11,17 +13,16 @@ se creó específicamente para adaptarse a las necesidades de las pruebas de ext
 
 **COMANDOS DE INSTALACION**.
 
--Escribir en la terminal de VS code o Git Bash:
+- Escribir en la terminal de VS code o Git Bash:
 npm init playwright@latest 
 
--Elija entre TypeScript o JavaScript (el valor predeterminado es TypeScript).
+- Elija entre TypeScript o JavaScript (el valor predeterminado es TypeScript).
 
--Nombre de su carpeta de Pruebas (el valor predeterminado es pruebas o e2e).
+- Nombre de su carpeta de Pruebas (el valor predeterminado es pruebas o e2e).
 
--Agregue un flujo de trabajo de GitHub Actions.
+- Agregue un flujo de trabajo de GitHub Actions.
 
-Seguido de esto solo tendra que esperar que los navegadores Chromium, Firefox y Webkit se instalen y se guarden en una carpeta junto con los demas archivos que
-instalara playwright.
+Seguido de esto solo tendra que esperar que los navegadores Chromium, Firefox y Webkit se instalen y se guarden en una carpeta junto con los demas archivos que instalara playwright.
 
 playwright.config.ts
 
